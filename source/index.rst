@@ -11,6 +11,6 @@ Welcome to Autosummary Tracebacks's documentation!
    :caption: Contents:
 
 .. autosummary::
-   :toctree: autogen
+   :toctree: autogen_nonexisting
 
    test_pkg.A
