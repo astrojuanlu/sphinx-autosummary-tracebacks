@@ -6,4 +6,6 @@ build-backend = "flit_core.buildapi"
 module = "test_pkg"
 author = "Juan Luis Cano Rodríguez"
 author-email = "juanlu@readthedocs.org"
-
+requires = [
+  "attrs",
+]
