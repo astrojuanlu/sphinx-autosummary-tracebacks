@@ -8,8 +8,8 @@ See discussion at https://github.com/sphinx-doc/sphinx/issues/7989
 Traceback (most recent call last):
   File "<string>", line 1, in <module>
   File "/home/juanlu/Projects/RTD/tmp/sphinx-autosummary-tracebacks/.venv/lib/python3.7/site-packages/test_pkg.py", line 7, in <module>
-    import attrs  # Do not install to surface problem
-ModuleNotFoundError: No module named 'attrs'
+    import attr  # Do not install to surface problem
+ModuleNotFoundError: No module named 'attr'
 (.venv) $ make html
 Running Sphinx v4.1.1
 loading pickled environment... done
